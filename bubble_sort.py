@@ -6,7 +6,7 @@ def bubble_sort(sequence):
         for x in range(len(sequence)- 1 - y):
             if sequence[x] > sequence[x+1]:
                 sequence[x], sequence[x+1] = sequence[x+1], sequence[x]
-    print (sequence)
+    return sequence, print (sequence)
 
 sequence_1 = []
 sequence_2 = [1,2,5,3,1,7,9,1,12,83,1,5,3,2]
